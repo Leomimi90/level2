@@ -1,0 +1,66 @@
+body {
+  background-color: teal;
+  font-size: 22px;
+}
+
+body #About {
+  margin: auto auto;
+}
+
+body #About form {
+  border: 1px solid black;
+  height: 100%;
+  width: 50%;
+  margin: 2rem auto;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+  -webkit-box-shadow: inset 3px 3px 3px 3px whitesmoke;
+          box-shadow: inset 3px 3px 3px 3px whitesmoke;
+}
+
+body #About form h1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+body #About form input {
+  border: 1px solid black;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 8px;
+}
+
+body #About form button {
+  border: none;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 1rem;
+  padding: 8px;
+  background-color: #4e9b9b;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+body #About form button:hover {
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: #181717;
+}
+
+body #About form .option {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */

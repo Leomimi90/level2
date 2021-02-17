@@ -1,0 +1,236 @@
+body {
+  width: 100vw;
+  height: auto;
+}
+
+header {
+  position: absolute;
+  height: 5%;
+  z-index: 3;
+  width: 5vw;
+}
+
+header .container {
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+header .container header .logo img {
+  width: 3rem;
+  height: 2rem;
+}
+
+header nav ul a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  font-family: "Alata"Sans;
+  padding: .5rem 0;
+}
+
+header nav ul a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  top: 100%;
+  left: 50%;
+  background-color: #fff;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+header nav ul a:hover::after {
+  width: 50%;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#hero .hero-sub {
+  width: 100%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+#hero .hero-sub h1 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 45px;
+  border: 2px solid white;
+  padding: 1rem;
+  width: 50%;
+}
+
+/*navbar toggler styles*/
+.nav-toggle-btn {
+  width: 50px;
+  height: 50px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  color: whitesmoke;
+  position: relative;
+}
+
+.nav-toggle-btn i {
+  position: absolute;
+  left: calc(50%-15px);
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90vw;
+  }
+  header nav {
+    background-color: rgba(34, 34, 34, 0.8);
+    width: 100VW;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: -1;
+    padding: 5rem;
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+  }
+  header nav.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+  }
+  header nav ul {
+    display: -ms-grid;
+    display: grid;
+    height: auto;
+  }
+  header nav ul li {
+    margin-bottom: 1rem;
+  }
+  header nav ul li a {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  #hero .hero-sub h1 {
+    width: 100%;
+  }
+  /*navbar toggler styles*/
+  .nav-toggle-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-toggle-btn.show i:first-child {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .nav-toggle-btn.show i:last-child {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .nav-toggle-btn i:last-child {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav {
+    background-color: rgba(34, 34, 34, 0.9);
+    width: 100VW;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: -1;
+    padding: 5rem;
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+  }
+  header nav.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+  }
+  header nav ul {
+    display: -ms-grid;
+    display: grid;
+    height: auto;
+  }
+  header nav ul li {
+    margin-bottom: 1rem;
+  }
+  header nav ul li a {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  #hero .hero-sub h1 {
+    width: 100%;
+  }
+  /*navbar toggler styles*/
+  .nav-toggle-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-toggle-btn.show i:first-child {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .nav-toggle-btn.show i:last-child {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .nav-toggle-btn i:last-child {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+}
+/*# sourceMappingURL=main.css.map */

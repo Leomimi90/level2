@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 20%;
+    width: 25%;
+    border: 1px solid #000;
+    animation-name: displace;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes displace{
+0%{
+    top: 0;
+    left: 0;
+    background-color: purple;
+}
+25%{
+    top: 25%;
+    left: 35%;
+    background-color: green;
+}
+75%{
+    top: 55%;
+    left: 60%;
+    background-color: red;
+}
+100%{
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+}
+}

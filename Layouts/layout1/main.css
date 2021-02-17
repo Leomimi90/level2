@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(252, 248, 243);
+    background-color: teal;
+}
+
+.main{
+    width: 75%;
+    height: auto;
+    margin: 1rem  auto 0;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.all{
+    display: flex;
+
+}
+
+.container1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.logo{
+    width: 100%;
+    height: 60px;
+    background-color: teal;
+    align-items: center;
+    padding: 4px 3px 2px;
+}
+
+.setting{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+    border-bottom: 1px solid white;
+    padding: 4px 3px 2px;
+}
+
+.laptop{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(44, 141, 141);
+    padding: 4px 3px 2px;
+}
+
+.medal{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(173, 163, 22);
+    padding: 4px 3px 2px;
+}
+
+.container2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.9rem;
+}
+
+.empty-one{
+    width: 100%;
+    height: 60px;
+    background-color: teal;
+    transform: skewY(310deg);
+
+}
+
+.empty-two{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+    border-bottom: 1px solid white;
+    transform: skewY(310deg);
+
+}
+
+.empty-three{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(44, 141, 141);
+    transform: skewY(310deg);
+
+}
+
+.empty-four{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(173, 163, 22);
+    transform: skewY(310deg);
+
+}
+
+.container3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.2rem;
+  
+}
+
+.services{
+    width: 100%;
+    height: 60px;
+    background-color: teal;
+    padding-left: 40px;
+}
+
+.training{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+    border-bottom: 1px solid white;
+    padding-left: 40px;
+}
+
+.center{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(44, 141, 141);
+    padding-left: 40px;
+
+}
+
+.certificate{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(173, 163, 22);
+    padding-left: 40px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    margin-left: 4rem;
+    
+}
