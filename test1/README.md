@@ -16,10 +16,14 @@ Create social media business pages for online sales:
 intagram
 facebook
 whatsapp
+complementary cards
 
 customer management -Ensure satisfaction, keep in touch via appreciative messages or cards
 
 <!-- Implementation -->
+
+onsite:
+
 <!-- tools -->
 
 my phone
@@ -35,7 +39,7 @@ firebase
 
 <!-- Version Control -->
 
-Github
+Git
 
 <!-- Duration -->
 
